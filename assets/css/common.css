@@ -1,0 +1,131 @@
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0,0,0,0);
+  overflow: hidden;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 100%;
+}
+@media (min-width: 89.0625em) {
+  .inner {
+      max-width: 142.5rem;
+  }
+}
+
+.sticky {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.btn-link {
+  align-items: center;
+  display: inline-flex;
+  justify-content: flex-start;
+}
+.btn-link .svg-link {
+  position: relative;
+  margin-bottom: 1em;
+  margin-right: 1.7em;
+}
+.btn-link:hover .svg-link .right-svg {
+  transition: transform .8s var(--ease-quart-in-out) 0s,opacity .8s var(--ease-quart-in-out) 0s;
+}
+.btn-link .svg-link .right-svg {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: .4em;
+  aspect-ratio: 11/20;
+}
+.btn-link:hover .svg-link .right-svg:first-child {
+  opacity: 1;
+  transform: translateX(0);
+}
+.btn-link:hover .svg-link .right-svg:last-child {
+  opacity: 0;
+  transform: translateX(1.25em);
+}
+.btn-link .svg-link .right-svg:first-child {
+  opacity: 0;
+  transform: translateX(-1.25em);
+}
+.btn-link .btn-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+
+/* fonticon */
+.icon {
+  display: inline-block;
+  font-family: 'FontIcon'; 
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+  text-rendering: auto;
+  speak: none;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.fonticon-arrow-down::before {
+  content: "\f107";
+}
+.fonticon-geoloc::before {
+  content: "\f120";
+}
+.fonticon-contact::before {
+  content: "\f114";
+}
+.fonticon-facebook::before {
+  content: "\f11a";
+}
+.fonticon-instagram::before {
+  content: "\f12c";
+}
+.fonticon-linkedin::before {
+  content: "\f130";
+}
+.fonticon-pinterest::before {
+  content: "\f141";
+}
+.fonticon-youtube::before {
+  content: "\f162";
+}
+.fonticon-twitter::before {
+  content: "\f158";
+}
+.fonticon-weibo::before {
+  content: "\f15f";
+}
+.fonticon-wechat::before {
+  content: "\f15e";
+}
+.fonticon-line::before {
+  content: "\f12e";
+}
+.fonticon-link::before {
+  content: "\f12f";
+}
+.fonticon-more::before {
+  content: "\f107";
+}

@@ -1,0 +1,57 @@
+/* 변수 */
+:root {
+  --blue: #0070d2;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #d22733;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #7ed321;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #000;
+  --secondary: #6c757d;
+  --success: #7ed321;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #d22733;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --color-contrast-low: rgba(217,217,217,1);
+  --color-contrast-lower: rgba(169,165,166,1);
+  --primary-color: rgba(255,255,255,1);
+  --ease-quint-in-out: cubic-bezier(0.86,0,0.07,1);
+  --ease-back-out: cubic-bezier(0.175,0.885,0.32,1.275);
+  --ease-quart-in-out: cubic-bezier(0.77,0,0.175,1);
+}
+
+/* 초기화 */
+*{margin:0;padding:0;font:inherit;color:inherit;}
+*, :after, :before {box-sizing:border-box;}
+:root {-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%;cursor:default;line-height:1.5;overflow-wrap:break-word;-moz-tab-size:4;tab-size:4}
+html, body {height:100%;}
+img, picture, video, canvas, svg {display: block;max-width:100%;}
+button {background:none;border:0;cursor:pointer;}
+a {text-decoration:none}
+table {border-collapse:collapse;border-spacing:0}
+ul {list-style: none;}
+
+/* 세팅 */
+html {
+  color-scheme: light;
+  font-size: 62.5%;
+  max-width: 100vw;
+  width: 100%;
+}
+body {
+  font-family: 'ApaxHeuerRegular', sans-serif;
+  background-color: #fff;
+  color: #000;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: left;
+}

@@ -1,0 +1,21 @@
+@import url('../fonts/Apax-TAG-Heuer-Italic.otf');
+@import url('../fonts/Apax-TAG-Heuer-Light.woff2');
+@import url('../fonts/Apax-TAG-Heuer-Regular.woff2');
+@import url('../fonts/fonticon.woff2');
+
+@font-face {
+  font-family: 'ApaxHeuerItalic';
+  src: url('../fonts/Apax-TAG-Heuer-Italic.otf') format('opentype');
+}
+@font-face {
+  font-family: 'ApaxHeuerLight';
+  src: url('../fonts/Apax-TAG-Heuer-Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'ApaxHeuerRegular';
+  src: url('../fonts/Apax-TAG-Heuer-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'FontIcon';
+  src: url('../fonts/fonticon.woff2') format('woff2');
+}
