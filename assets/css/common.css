@@ -7,6 +7,10 @@
   overflow: hidden;
 }
 
+.wrap {
+  min-width: 1040px;
+}
+
 .inner {
   margin-left: auto;
   margin-right: auto;

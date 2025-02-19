@@ -37,6 +37,11 @@ ScrollTrigger.create({
   }
 });
 // header hover
+$('#header .group-nav .gnb-item').hover(function() {
+  if ($(this).find('.gnb-wrapper').length > 0) {
+    $(this).toggleClass('active');
+  }
+});
 
 // sc-kith video play
 $('.sc-kith .btn-area .control-btn').on('click', function() {
